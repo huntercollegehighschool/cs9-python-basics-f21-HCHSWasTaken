@@ -18,7 +18,16 @@ The sum of the numbers you entered is 40
 '''
 
 #code starts here
-first_value = int(input("Enter a number: "))
-second_value = int(input("Enter a second number: "))
+def parta():
+  value = []
 
-print("The sum of the numbers you entered is", first_value + second_value)
+  n = int(input("How many numbers do you want to add: "))
+  for i in range(0, n):
+
+    sel = int(input("Input a number: "))
+ 
+    value.append(sel)
+     
+  print("Your numbers are:", value)
+  print("The sum of the", n, "numbers you entered is: ", sum(value))
+
