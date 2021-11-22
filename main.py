@@ -4,9 +4,10 @@ import part3
 import part4
 import part5
 
-program = int(input("Which part are you testing? Type in 1, 2, 3, 4, or 5."))
+program = int()
 
 while program != '':
+  program = int(input("Which part are you testing? Type in 1, 2, 3, 4, or 5."))
   if program == 1:
     part1.parta()
   elif program == 2:
@@ -17,4 +18,3 @@ while program != '':
     part4.partd()
   elif program == 5:
     part5.parte()
-  program = int(input("Which part are you testing? Type in 1, 2, 3, 4, or 5."))
