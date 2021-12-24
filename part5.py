@@ -13,3 +13,11 @@ Hello, Ash Ketchum
 '''
 
 #start writing your code below
+def parte():
+  import time
+
+  first = str(input("Enter your first name: "))
+  time.sleep(0.5)
+  last = str(input("Enter your last name: "))
+  time.sleep(1)
+  print ("Hello,", first, last)
